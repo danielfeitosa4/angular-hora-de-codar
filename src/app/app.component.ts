@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-hora-de-codar';
+
+  userName: string = 'daniel.gama'
+  email: string = 'danielfeitosa.gama@outlook.com'
 }
