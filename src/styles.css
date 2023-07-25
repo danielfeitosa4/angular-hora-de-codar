@@ -1,7 +1,8 @@
 * {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -9,3 +10,13 @@ a {
   font-weight: 900;
 }
 
+
+body {
+  padding-bottom: 500px;
+}
+
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
+}
