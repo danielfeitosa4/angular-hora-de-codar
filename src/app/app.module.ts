@@ -11,6 +11,9 @@ import { DirectivesComponent } from './components/directives/directives.componen
 import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
     DirectivesComponent,
     EventosComponent,
     EmitterComponent,
-    ChangeNumberComponent
+    ChangeNumberComponent,
+    ListRenderComponent,
+    PipesComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
